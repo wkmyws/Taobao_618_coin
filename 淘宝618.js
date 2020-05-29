@@ -26,8 +26,8 @@ function find() {
 
     return text("去进店").findOne(1) ||
         text("去浏览").findOne(1) ||
-        text ("去围观").findOne(1)||
-        text("去逛逛").findOne(1)||
+        //text ("去围观").findOne(1)||
+        //text("去逛逛").findOne(1)||
         null;
 
 }
